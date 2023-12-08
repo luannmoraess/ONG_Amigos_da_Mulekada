@@ -1,0 +1,81 @@
+.Quad-Pai {
+    z-index: 5;
+     height: 416px;
+     left: 27%;
+      border-top-left-radius: 25%;
+        border-top-right-radius: 25% ;
+          background-color: #D9A273;
+          transition: all 0.2s;
+  }
+
+  .Quad-Pai2 {
+    z-index: 5;
+     height: 308px;
+     left: 32%;
+      border-top-left-radius: 25%;
+        border-top-right-radius: 25% ;
+          background-color: #EAD3B2;
+          transition: all 0.2s;
+          padding: 0;
+  }
+
+
+
+
+  @media screen and (max-width: 1450px) {
+    .Quad-Pai {
+      left: 25%;
+    }
+  }
+  @media screen and (max-width: 1302px) {
+    .Quad-Pai {
+      left: 23%;
+    }
+  }
+  @media screen and (max-width: 1126px) {
+    .Quad-Pai {
+      left: 21%;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .Quad-Pai {
+      left: 19%;
+    }
+  }
+
+  abbr{
+    text-decoration: none!important;
+  }
+  
+
+  footer {
+    background-color: #262526;
+    min-height: 50px;
+    padding: 18px;
+    align-items: center !important ;
+} 
+
+@media screen and (max-width: 1450px) {
+  .Quad-Pai2 {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 1302px) {
+  .Quad-Pai2 {
+    left: 28%;
+  }
+}
+@media screen and (max-width: 1126px) {
+  .Quad-Pai2 {
+    left: 26%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .Quad-Pai2 {
+    left: 24%;
+  }
+}
+
+.icon::before{
+  font-size: 20px;
+}

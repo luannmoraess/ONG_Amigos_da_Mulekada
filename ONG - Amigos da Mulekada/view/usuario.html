@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário</title>
+    <link rel="stylesheet" href="../assets/css/styleusuario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body style="background-color: #F7F3EA;">
+
+    <nav id="nabarzinho" class="navbar navbar-expand-sm shadow" style="background-color: #F7F3EA;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" aria-current="page" href="./home.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" href="./pets.html">PETS</a>
+                    </li>
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" href="./sobre.html">SOBRE</a>
+                    </li>
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" href="./usuario.html">CADASTRAR PET</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-5" style="background-color: #E3CAA5;">
+
+
+        <div
+            class="row d-flex justify-content-center justify-content-md-start text-center text-md-start flex-md-row flex-column gap-2 gap-md-0">
+
+
+            <div class="col-md-6 col-xl-4 d-flex justify-content-center justify-content-md-end">
+
+                <img class="img-fluid img-thumbnail" style="width: 300px; height: 300px;"
+                    src="../assets/js/img/PERFIL USUARIO/image 1.png" alt="">
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+                <h1 class="fw-bold">ISADORA</h1>
+                <h1 class="fw-bold">AUGUSTO</h1>
+                <p class="text-break">Lorem ipsum dolor sit amet. Non explicabo eveniet cum Labore quia quaerat
+                    reiciendis. Non explicabo eveniet cum Labore</p>
+            </div>
+
+            <div class="col-4 d-none d-xl-block">
+                <img class=" img-banner d-none d-xl-block" src="../assets/js/img/PERFIL USUARIO/Mancha.png"
+                    style="width: 400px; height:400px; border-radius: 0.5rem;" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid my-5">
+
+        <div class="container">
+
+            <div class="row d-flex">
+
+                <div class="col">
+                    <h1 class="fw-bold text-center pb-5">PETS CADASTRADOS</h1>
+
+                    <div class="col">
+
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <div class="image-frame"><img src="../assets/js/img/PERFIL USUARIO/pluto.jpg"
+                                    class="mx-auto d-block h-100 w-100" alt=""></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pluto, 5 anos</h5>
+                                <p class="card-text">Brincalhão e carinhoso</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="vr d-none d-md-block linha-vertical" style="padding: 0;"></div>
+
+                <div class="col-0 pt-5 pt-md-0 col-md text-center">
+                    <h1 class="fw-bold pb-4 pb-md-5">CADASTRE UM PET</h1>
+                    <div class="col-10 mx-auto">
+                        <div class="mb-2 text-center text-md-start">
+                            <label for="nome" class="form-label ms-md-3">Nome</label>
+                            <input type="text" id="" class="form-control rounded-5" placeholder="Qual o nome do pet?"
+                                style="background-color: #D9A273; border: none;">
+                        </div>
+                        <div class="mb-2 pt-2 text-center text-md-start">
+                            <label for="raca" class="form-label ms-md-3">Raça</label>
+                            <input type="text" id="" class="form-control rounded-5"
+                                placeholder="Digite a raça do Pet aqui."
+                                style="background-color: #D9A273; border: none;">
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-6 text-center text-md-start">
+                                <label for="peso" class="form-label ms-md-3">Peso</label>
+                                <input type="text" id="" class="form-control rounded-5"
+                                    placeholder="Digite o peso do Pet."
+                                    style="background-color: #D9A273; border: none;">
+                            </div>
+                            <div class="col-6 text-center text-md-start">
+                                <label for="idade" class="form-label ms-md-3">Idade</label>
+                                <input type="text" id="" class="form-control rounded-5" placeholder="Qual Idade do Pet?"
+                                    style="background-color: #D9A273; border: none;">
+                            </div>
+                        </div>
+                        <div class="mb-3 text-center text-md-start">
+                            <label for="senha" class="form-label ms-md-3">Descrição</label>
+                            <textarea class="form-control rounded-4" id="exampleFormControlTextarea1" rows="5"
+                                placeholder="Escreva algo sobre o Pet..."
+                                style="background-color: #D9A273; border: none; resize: none;"></textarea>
+
+                        </div>
+                        <div class="pb-4 mt-1 d-flex justify-content-center justify-content-md-end">
+                            <button type="button" id="" class="btn btn-lg rounded-5 fs-6" data-bs-toggle="modal"
+                                data-bs-target="" style="background-color: #D9A273; border: none;">Cadastrar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <footer class="footer container-fluid text-white text-center">
+
+        <div class="row">
+            <div
+                class="col-md a-do-footer d-flex d-md-flex gap-5 justify-content-center txt-introdutivo d-none d-sm-none d-md-block">
+                <a href="../view/home.html" class="text-decoration-none">HOME</a>
+                <a href="../view/pets.html" class="text-decoration-none">PETS</a>
+                <a href="../view/sobre.html" class=" text-decoration-none">SOBRE</a>
+
+            </div>
+            <div class="col-1 d-none d-sm-none d-md-block">
+                <div class="vr h-100"></div>
+            </div>
+            <div class="col-md a-do-footer d-flex gap-5 justify-content-center">
+                <a><i class="bi icon bi-facebook"></i></a>
+                <a><i class="bi icon bi-instagram"></i></a>
+                <a><i class="bi icon bi-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>
